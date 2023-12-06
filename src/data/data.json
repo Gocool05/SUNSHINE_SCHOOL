@@ -1,0 +1,153 @@
+{
+  "Header": {
+    "title": "SUNSHINE MONTESSORI SCHOOL",
+    "paragraph": "At Sunshine, we believe in open conversations between students and teachers. We encourage everyone to freely share their thoughts and ideas while treating each other with respect. Our daily mission is to spark a love for learning, unlock creativity, and help students think globally"
+  },
+  "About": {
+    "paragraph": "Sunshine Montessori school was founded in July 2006 to teach children from the age of one and a half years. A new building was constructed in 2010 by obtaining NOC from the State Government No: 39590/G1/S2/2010, dated: 21.06.2010 and also affiliated to CBSE with all the facilities at Madipakkam, which is known as Sunshine Chennai Senior Secondary School, with an honest intention to create a unique and holistic learning environment for children. It endeavours to provide every child an enlightening experience to self-actualize.",
+    "Why": [
+      "Comprehensive Curriculum Options",
+      "Global Recognition",
+      "Mission for Empowerment",
+      "Unique Learning Environment"
+    ],
+    "Why2": [
+      "Open Communication",
+      "Excellence in All Aspects",
+      "Individualized Approach",
+      "Caring for Well-Rounded Development"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Sports Day",
+      "largeImage": "img/Gallery-Sports.jpg",
+      "smallImage": "img/Gallery-Sports.jpg"
+    },
+    {
+      "title": "Children's Day",
+      "largeImage": "img/Gallery-Childrensday.jpeg",
+      "smallImage": "img/Gallery-Childrensday.jpeg"
+    },
+    {
+      "title": "Yoga Class",
+      "largeImage": "img/Gallery-yoga.jpg",
+      "smallImage": "img/Gallery-yoga.jpg"
+    },
+    {
+      "title": "Dance Class",
+      "largeImage": "img/Gallery-dance.jpg",
+      "smallImage": "img/Gallery-dance.jpg"
+    },
+    {
+      "title": "Music Class",
+      "largeImage": "img/Gallery-music.jpeg",
+      "smallImage": "img/Gallery-music.jpeg"
+    },
+    {
+      "title": "Industrial Visit",
+      "largeImage": "img/Gallery-Visit.jpg",
+      "smallImage": "img/Gallery-Visit.jpg"
+    },
+    {
+      "title": "Annual Day",
+      "largeImage": "img/Gallery-AnnualDay.jpg",
+      "smallImage": "img/Gallery-AnnualDay.jpg"
+    },
+    {
+      "title": "Pink Day",
+      "largeImage": "img/Gallery-Pinkday.jpg",
+      "smallImage": "img/Gallery-Pinkday.jpg"
+    },
+    {
+      "title": "PET Hours",
+      "largeImage": "img/Gallery-pet.jpg",
+      "smallImage": "img/Gallery-pet.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Nursery to UKG",
+      "text": "When a child steps through our doors we aim to take them on an exhilarating journey of learning, growth and discovery, through the Montessori method to an age group of 2+ to 6 years.The Sunshiners are encouraged to be independent, critical thinkers with enquiring minds and a love of learning. Throughout, we emphasise the importance of kindness, consideration and respect. We maintain high expectations of behaviour all the time. We offer our children many leadership and teamwork opportunities to build their confidence and prepare them for future challenges. A true all-round education can never be confined to the four walls of a classroom. Sunshine pupils have many opportunities to learn in different environments The subjects taught during the starting years of their learning journey includes English, Mathematics, and Environmental studies."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Primary School",
+      "text": "Our Primary school programme is based on the CICSE Board. ICSE Primary, typically for learners aged 7 to 11 years, gives a world-class curriculum to develop learner skills and understanding in English, mathematics, science, language, social studies, computer science and Art education.There are so many opportunities for Sunshine students to follow their passions whether they be on the sporting fields, the pool, the stage, the studio or the great outdoors. With extensive co-curricular and extracurricular programs in place that are included in the curriculum, the difficulty will be in choosing.All students from Year 7 to Year 15 participate in our extensive sports program both at a House level and interschool competitions. Sport is a compulsory aspect of school life for all students which includes Gymnastics, Squash, Swimming, Table Tennis, Billiards, Chess, Badminton etc. The students need to choose any two of the available sport as part of the curriculum. The high level of engagement and performance of Sunshine students in a wide variety of sports is a real feature of school life.Complimenting the extensive visual arts curriculum, there are also many opportunities for students to engage with other aspects of the arts including life drawing, pottery, sculpting, Carpentry, Music and photography which are part of the curriculum.  With thriving music and performing arts departments, students participate in the ensembles, choirs, bands, orchestras, plays, musicals and soirees offered at all levels of the School and also learn to play different musical instruments based on their interest, such as Keyboard, Drums, Tabla, Veena, Guitar etc from which they get to choose.As our children make their way through the school years, we aim to prepare them for life beyond our walls, teaching them that they can have a positive effect on the world around them."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "High School ",
+      "text": "The CISCE curriculum is widely acknowledged by universities and colleges worldwide. Its recognition opens doors to numerous opportunities for higher education, both within India and internationally. The curriculum's emphasis on holistic development and equipping students with the necessary knowledge, skills, and critical thinking abilities makes it highly regarded in academic circles.The scope and sequence of the CISCE curriculum are thoughtfully planned to ensure a logical progression of learning outcomes and skills across different grade levels. This allows students to build upon their knowledge and develop a deeper understanding of subjects as they advance through the curriculum. The scope and sequence provide a clear roadmap for educators to follow in order to deliver a cohesive and structured education.The CISCE curriculum embraces interdisciplinary approaches to learning, encouraging students to make connections across different subjects and explore the interrelationships between them. This approach allows students to develop a broader perspective and a deeper understanding of the world around them. By integrating knowledge and skills from various disciplines, students are equipped to tackle complex problems and think critically.The subjects include English, Mathematics, History, Political science, Geography, Economics, Physics, Chemistry, Biology, second language, Computer science."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "We are extremely happy with the education our child receives at this school. The supportive environment and dedicated teachers have made a positive impact on our child's academic and personal growth. Highly recommended!",
+      "name": "Jaganathan Shankar"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "Our experience with the school has been outstanding. The emphasis on holistic development, the caring staff, and the various extracurricular activities provided have exceeded our expectations. Thank you for creating a nurturing learning environment!",
+      "name": "Gokul Sankar"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "Choosing this school for our child was the best decision we made. The dedicated teachers and innovative teaching methods have helped our child flourish academically and socially. We couldn't be happier!",
+      "name": "Vinoth Kumar "
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "We appreciate the school's commitment to fostering a love for learning. Our child enjoys going to school every day, and we can see the positive impact it has on their overall development. Highly recommended!",
+      "name": "Subhashini Boopathy"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "The school's focus on character development and values aligns perfectly with our parenting philosophy. We have seen our child grow not only academically but also as a responsible and compassionate individual. Excellent school!",
+      "name": "Ajay Kumar"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "Our family feels blessed to be part of this school community. The welcoming atmosphere, caring teachers, and diverse learning opportunities make it a standout educational institution. We highly recommend it to other parents.",
+      "name": "Priya Dharshini"
+    }
+    
+  ],
+  "Team": [
+    {
+      "img": "img/Principal.jpg",
+      "name": "Mrs.Ezhilarasi",
+      "job": "The Principal"
+    },
+    {
+      "img": "img/Correspondent.jpg",
+      "name": "Mrs.Senthamarai Sabarisan",
+      "job": "The Correspondent"
+    }
+  ],
+  "Contact": {
+    "address": "61, 1st Cross st, First Avenue, Vettuvankeni, Chennai, Tamilnadu-600115",
+    "phone": "+91 6379817563",
+    "email": "montessori@sunshineschool.in",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}
