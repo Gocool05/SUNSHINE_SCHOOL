@@ -5,7 +5,7 @@ export const Header = (props) => {
     <header id="header">
       <div className="intro">
         <video className="video-background" autoPlay muted loop>
-          <source src="../img/bgvid4.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dx78kzenz/video/upload/v1701861716/bgvid4_dbqxda.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="overlay">

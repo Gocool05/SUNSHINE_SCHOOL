@@ -132,12 +132,12 @@
   ],
   "Team": [
     {
-      "img": "img/Principal.jpg",
+      "img": "https://res.cloudinary.com/dx78kzenz/image/upload/v1701861676/Principal_ou3euq.jpg",
       "name": "Mrs.Ezhilarasi",
       "job": "The Principal"
     },
     {
-      "img": "img/Correspondent.jpg",
+      "img": "https://res.cloudinary.com/dx78kzenz/image/upload/v1701861676/Correspondent_upscpj.jpg",
       "name": "Mrs.Senthamarai Sabarisan",
       "job": "The Correspondent"
     }

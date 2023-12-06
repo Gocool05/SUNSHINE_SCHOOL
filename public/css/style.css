@@ -421,7 +421,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background-image: url(../img/bg2.jpg);
+  background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1701861677/b-bg_syw88d.jpg);
   color: black;
 }
 #services .service-desc {
@@ -511,7 +511,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background-image: url(../img/bg2.jpg);
+  background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1701861677/b-bg_syw88d.jpg);
 
 }
 #testimonials i {
@@ -577,14 +577,14 @@ header .intro-text {
 
 /* Contact Section */
 #about{
-  background-image: url(../img/b-bg.jpg);
+  background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1701861677/b-bg_syw88d.jpg);
 color: black;
 }
 #contact {
   padding: 100px 0 60px;
 
   background-color: #E0F4FF;
-  background-image: url(../img/b-bg.jpg);
+  background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1701861677/b-bg_syw88d.jpg);
   /* background-image: url(../img/b-bg.jpg); */
 }
 #contact .section-title {
