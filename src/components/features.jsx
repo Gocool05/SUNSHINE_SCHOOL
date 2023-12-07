@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     margin: theme.spacing(2),
+    marginLeft:theme.spacing(0),
   },
   layoutChild: {
     width: '100%',
