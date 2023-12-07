@@ -114,7 +114,8 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #00306e;
+  color: #f4ce14;
+  background-color: black;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -339,8 +340,6 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
-
-
 .layout {
   display: flex;
   gap: 16px;

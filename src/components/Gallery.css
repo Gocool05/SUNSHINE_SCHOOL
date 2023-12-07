@@ -18,13 +18,23 @@
 .card-image {
   width: 100%;
   height: auto;
+  border-radius: 20px; 
+  border: 4px double #f4ce14;
 }
 
 .card-title {
   text-align: center;
   padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
   
+@media screen and (max-width: 768px) {
+  .flexbox-item {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
   /* Styles for the modal overlay */
   .modal-overlay {
     background: rgba(0, 0, 0, 0.8);

@@ -1,6 +1,11 @@
 import React from "react";
-import { Container, Grid, Button } from '@mui/material';
+import { Container, Grid, Button, Typography } from '@mui/material';
+
+
 export const Header = (props) => {
+  const titleStyle = {
+    fontSize: '6vw',
+  };
   return (
     <header id="header">
       <div className="intro">
@@ -15,7 +20,7 @@ export const Header = (props) => {
                 {/* <div className="enburns-top"> */}
                   <div className="row">
                     <div className="col-md-8 col-md-offset-2 intro-text">
-                    <h1>
+                    <h1 style={titleStyle}>
                    {props.data ? props.data.title : "Loading"}
                    <span></span>
                     </h1>
