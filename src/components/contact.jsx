@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { Grid, Link, Container, Typography } from '@mui/material';
+import { alignProperty } from "@mui/material/styles/cssUtils";
 
 const initialState = {
   name: "",
@@ -150,7 +151,7 @@ export const Contact = (props) => {
       <div id="footer" className="text-center">
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={6} sm={6}>
             <Typography variant="body2" color="textSecondary" align="left">
               &copy; 2023 All rights reserved by{' '}
               <Link href="https://sunshineschool.in/" rel="" color="primary" underline="none">
@@ -158,7 +159,7 @@ export const Contact = (props) => {
               </Link>
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={6} sm={6}>
             <Typography variant="body2" color="textSecondary" align="right">
               Designed By{' '}
               <Link href="https://JGNTECHNOLOGIES.in" rel="" color="primary" underline="none">
