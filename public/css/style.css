@@ -19,6 +19,12 @@ body{
     display: block;
   }
 
+  .img-responsive{
+    border-radius: 30px 30px; 
+    border: 8px dotted #f4ce14;
+    
+  }
+
   
   /* Add these styles to your existing CSS file */
 
@@ -412,8 +418,8 @@ header .intro-text {
   width: 520px;
   margin-top: 10px;
   background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  
+  
 }
 #about p {
   line-height: 24px;
@@ -565,10 +571,13 @@ header .intro-text {
 }
 #team .team-img {
   width: auto;
-  height: 250px;
+  height: 300px;
+  border-radius: 0px 90px 90px; 
+border: 4px inset #F4CE14;
 }
 #team .thumbnail {
   background: transparent;
+  
   border: 0;
 }
 #team .thumbnail .caption {

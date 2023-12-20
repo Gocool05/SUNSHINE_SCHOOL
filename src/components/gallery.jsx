@@ -27,7 +27,7 @@ export const Gallery = () => {
   const slickSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed:1,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -142,4 +142,4 @@ export const Gallery = () => {
       
     </div>
   );
-};
+};  

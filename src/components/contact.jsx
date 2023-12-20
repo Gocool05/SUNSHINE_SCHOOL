@@ -162,7 +162,7 @@ export const Contact = (props) => {
           <Grid item xs={6} sm={6}>
             <Typography variant="body2" color="textSecondary" align="right">
               Designed By{' '}
-              <Link href="https://JGNTECHNOLOGIES.in" rel="" color="primary" underline="none">
+              <Link href="http://www.jgntechnologies.com/" rel="" color="primary" underline="none">
                 JGN TECHNOLOGIES
               </Link>
             </Typography>

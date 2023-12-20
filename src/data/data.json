@@ -99,32 +99,32 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/updated pics/profile.png",
       "text": "We are extremely happy with the education our child receives at this school. The supportive environment and dedicated teachers have made a positive impact on our child's academic and personal growth. Highly recommended!",
       "name": "Jaganathan Shankar"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/updated pics/profile.png",
       "text": "Our experience with the school has been outstanding. The emphasis on holistic development, the caring staff, and the various extracurricular activities provided have exceeded our expectations. Thank you for creating a nurturing learning environment!",
       "name": "Gokul Sankar"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/updated pics/profile.png",
       "text": "Choosing this school for our child was the best decision we made. The dedicated teachers and innovative teaching methods have helped our child flourish academically and socially. We couldn't be happier!",
       "name": "Vinoth Kumar "
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/updated pics/woman.png",
       "text": "We appreciate the school's commitment to fostering a love for learning. Our child enjoys going to school every day, and we can see the positive impact it has on their overall development. Highly recommended!",
       "name": "Subhashini Boopathy"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/updated pics/profile.png",
       "text": "The school's focus on character development and values aligns perfectly with our parenting philosophy. We have seen our child grow not only academically but also as a responsible and compassionate individual. Excellent school!",
       "name": "Ajay Kumar"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/updated pics/woman.png",
       "text": "Our family feels blessed to be part of this school community. The welcoming atmosphere, caring teachers, and diverse learning opportunities make it a standout educational institution. We highly recommend it to other parents.",
       "name": "Priya Dharshini"
     }
@@ -132,15 +132,16 @@
   ],
   "Team": [
     {
-      "img": "https://res.cloudinary.com/dx78kzenz/image/upload/v1701861676/Principal_ou3euq.jpg",
-      "name": "Mrs.Ezhilarasi",
-      "job": "The Principal"
-    },
-    {
       "img": "https://res.cloudinary.com/dx78kzenz/image/upload/v1701861676/Correspondent_upscpj.jpg",
       "name": "Mrs.Senthamarai Sabarisan",
       "job": "The Correspondent"
+    },
+    {
+      "img": "https://res.cloudinary.com/dx78kzenz/image/upload/v1701861676/Principal_ou3euq.jpg",
+      "name": "Mrs.Ezhilarasi",
+      "job": "The Principal"
     }
+    
   ],
   "Contact": {
     "address": "61, 1st Cross st, First Avenue, Vettuvankeni, Chennai, Tamilnadu-600115",

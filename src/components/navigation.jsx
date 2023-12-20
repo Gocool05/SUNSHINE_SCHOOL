@@ -45,7 +45,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a href="#Header" className="page-scroll">
-          <img className="logo" src="https://res.cloudinary.com/dx78kzenz/image/upload/v1701861675/Logo_sh2q20.png" alt="logo"></img>
+          <img className="logo" src="https://res.cloudinary.com/dx78kzenz/image/upload/v1703055509/sunshine_montessori_school_vh708w.png" alt="logo"></img>
           </a>
         </div>
 
