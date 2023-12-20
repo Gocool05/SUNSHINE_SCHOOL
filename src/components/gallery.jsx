@@ -34,77 +34,55 @@ export const Gallery = () => {
 
   const events = [
     {
-      title: 'Sports Day',
+      title: 'Annual Day',
       images: [
-        { original: 'https://picsum.photos/800/400?random=1', thumbnail: 'https://picsum.photos/800/400?random=1' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m2_ttg6bj.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m2_ttg6bj.jpg' },
         { original: 'https://picsum.photos/800/400?random=2', thumbnail: 'https://picsum.photos/800/400?random=2' },
         { original: 'https://picsum.photos/800/400?random=3', thumbnail: 'https://picsum.photos/800/400?random=3' },
       ],
     },
     {
-      title: 'Annual Day',
+      title: 'Play Time',
       images: [
-        { original: 'https://picsum.photos/800/400?random=4', thumbnail: 'https://picsum.photos/800/400?random=4' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m6_pex6rr.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m6_pex6rr.jpg' },
         { original: 'https://picsum.photos/800/400?random=5', thumbnail: 'https://picsum.photos/800/400?random=5' },
         { original: 'https://picsum.photos/800/400?random=6', thumbnail: 'https://picsum.photos/800/400?random=6' },
       ],
     },
     {
-      title: 'Childrens Day',
+      title: 'Fun Activities',
       images: [
-        { original: 'https://picsum.photos/800/400?random=7', thumbnail: 'https://picsum.photos/800/400?random=7' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075171/m1_qc29mi.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075171/m1_qc29mi.jpg' },
         { original: 'https://picsum.photos/800/400?random=8', thumbnail: 'https://picsum.photos/800/400?random=8' },
         { original: 'https://picsum.photos/800/400?random=9', thumbnail: 'https://picsum.photos/800/400?random=9' },
       ],
     },
     {
-      title: 'Navarathiri Celebration',
+      title: 'Republic Day',
       images: [
-        { original: 'https://picsum.photos/800/400?random=10', thumbnail: 'https://picsum.photos/800/400?random=10' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m3_drnsbg.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m3_drnsbg.jpg' },
         { original: 'https://picsum.photos/800/400?random=11', thumbnail: 'https://picsum.photos/800/400?random=11' },
         { original: 'https://picsum.photos/800/400?random=12', thumbnail: 'https://picsum.photos/800/400?random=12' },
       ],
     },
     {
-      title: 'MONTESSORI CLASS ACTIVITY',
+      title: 'Red Day',
       images: [
-        { original: 'https://picsum.photos/800/400?random=13', thumbnail: 'https://picsum.photos/800/400?random=13' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m4_ugmemt.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m4_ugmemt.jpg' },
         { original: 'https://picsum.photos/800/400?random=14', thumbnail: 'https://picsum.photos/800/400?random=14' },
         { original: 'https://picsum.photos/800/400?random=15', thumbnail: 'https://picsum.photos/800/400?random=15' },
       ],
     },
     {
-      title: 'KRISHNA JAYANTHI',
+      title: 'Pongal Celebration',
       images: [
-        { original: 'https://picsum.photos/800/400?random=17', thumbnail: 'https://picsum.photos/800/400?random=17' },
+        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m5_bdkoiz.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m5_bdkoiz.jpg' },
         { original: 'https://picsum.photos/800/400?random=18', thumbnail: 'https://picsum.photos/800/400?random=18' },
         { original: 'https://picsum.photos/800/400?random=19', thumbnail: 'https://picsum.photos/800/400?random=19' },
       ],
     },
-    {
-      title: 'VINAYAGAR CHADURTHI',
-      images: [
-        { original: 'https://picsum.photos/800/400?random=20', thumbnail: 'https://picsum.photos/800/400?random=20' },
-        { original: 'https://picsum.photos/800/400?random=21', thumbnail: 'https://picsum.photos/800/400?random=21' },
-        { original: 'https://picsum.photos/800/400?random=22', thumbnail: 'https://picsum.photos/800/400?random=22' },
-      ],
-    },
-    {
-      title: 'INDEPENDANCE DAY',
-      images: [
-        { original: 'https://picsum.photos/800/400?random=23', thumbnail: 'https://picsum.photos/800/400?random=23' },
-        { original: 'https://picsum.photos/800/400?random=24', thumbnail: 'https://picsum.photos/800/400?random=24' },
-        { original: 'https://picsum.photos/800/400?random=25', thumbnail: 'https://picsum.photos/800/400?random=25' },
-      ],
-    },
-    {
-      title: 'INVESTITURE CEREMONY',
-      images: [
-        { original: 'https://picsum.photos/800/400?random=26', thumbnail: 'https://picsum.photos/800/400?random=26' },
-        { original: 'https://picsum.photos/800/400?random=27', thumbnail: 'https://picsum.photos/800/400?random=27' },
-        { original: 'https://picsum.photos/800/400?random=28', thumbnail: 'https://picsum.photos/800/400?random=28' },
-      ],
-    },
+  
+    
     
     // Add more events here as needed
   
