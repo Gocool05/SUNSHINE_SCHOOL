@@ -21,8 +21,7 @@ body{
 
   .img-responsive{
     border-radius: 30px 30px; 
-    border: 8px dotted #f4ce14;
-    
+    border: 10px dotted #f4ce14;
   }
 
   
@@ -94,6 +93,10 @@ hr {
 }
 /* Navigation */
 
+.disable-right-click {
+  user-select: none;
+}
+
 #news-ticker{
   background-color:#F4CE14 ;
   color: black;
@@ -101,9 +104,19 @@ hr {
 }
 #menu {
   margin-top:20px;
-  height: 70px;
+  height: 90px;
   transition: all 0.8s;
   
+}
+#menu::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 20px;
+  bottom: -15px;
+  left: 0;
+  background: url('https://res.cloudinary.com/dx78kzenz/image/upload/v1703066292/bg-header-top_bgkkgd.png') center center repeat-x;
+  z-index: 1;
 }
 #menu.navbar-default {
   background-color: white;
@@ -175,7 +188,7 @@ margin-bottom: 30px;
 
 
 .logo{
-  height: 65px; /* Make the logo fill the entire height of the parent container */
+  height: 90px; /* Make the logo fill the entire height of the parent container */
   width: auto; /* Maintain the aspect ratio */
   
   z-index: 1;
@@ -257,6 +270,7 @@ a:focus,
 /* Header Section */
 #header {
   position: relative;
+  top:40px;
 }
 
 .intro-text{

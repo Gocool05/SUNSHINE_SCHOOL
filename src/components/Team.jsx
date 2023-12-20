@@ -5,7 +5,7 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Beloved higher officials</h2>
+          <h2>management</h2>
           <p>
           At Sunshine, we believe in open conversations between students and teachers
           </p>

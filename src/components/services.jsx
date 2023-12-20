@@ -26,7 +26,7 @@ export const Services = (props) => {
           <div className="col-md-4">
             <Card sx={{ boxShadow:'0px 5px 15px rgba(255, 255, 255, 0.4), 0px 10px 15px rgba(255, 255, 255, 0.3), 0px 15px 15px rgba(255, 255, 255, 0.2), 0px 20px 15px rgba(255, 255, 255, 0.1), 0px 25px 15px rgba(255, 255, 255, 0.05)'}}>
               <CardContent>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h4" gutterBottom style={{ fontWeight: 'bold' }}>
                   Nursery to UKG
                 </Typography>
                 <Typography variant="h6" style={{ textAlign: 'left' }}>
@@ -65,7 +65,7 @@ export const Services = (props) => {
           <div className="col-md-4">
             <Card sx={{ boxShadow:'0px 5px 15px rgba(255, 255, 255, 0.4), 0px 10px 15px rgba(255, 255, 255, 0.3), 0px 15px 15px rgba(255, 255, 255, 0.2), 0px 20px 15px rgba(255, 255, 255, 0.1), 0px 25px 15px rgba(255, 255, 255, 0.05)'}}>
               <CardContent>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h4" style={{ fontWeight: 'bold' }} gutterBottom>
                   Primary School
                 </Typography>
                 <Typography variant="h6" style={{ textAlign: 'left' }}>
@@ -104,7 +104,7 @@ export const Services = (props) => {
           <div className="col-md-4">
             <Card sx={{ boxShadow:'0px 5px 15px rgba(255, 255, 255, 0.4), 0px 10px 15px rgba(255, 255, 255, 0.3), 0px 15px 15px rgba(255, 255, 255, 0.2), 0px 20px 15px rgba(255, 255, 255, 0.1), 0px 25px 15px rgba(255, 255, 255, 0.05)'}}>
               <CardContent>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h4" style={{ fontWeight: 'bold' }} gutterBottom>
                   High School
                 </Typography>
                 <Typography variant="h6" style={{ textAlign: 'left' }}>
