@@ -18,7 +18,7 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Detailed Info</h2>
+          <h2>CURRICULUM</h2>
           <p>Montessori Mode of Education and Assessment</p>
         </div>
         <div className="row">
@@ -38,7 +38,7 @@ export const Services = (props) => {
                       The Sunshiners are encouraged to be independent, critical thinkers with enquiring minds and a love of learning. Throughout, we emphasize the importance of kindness, consideration, and respect. We maintain high expectations of behavior all the time.
                     </Typography>
                     <Typography variant="h6" style={{ textAlign: 'left' }}>
-                      We offer our children many leadership and teamwork opportunities to build their confidence and prepare them for future challenges. A true all-round education can never be confined to the four walls of a classroom. Sunshine pupils have many opportunities to learn in different environments.
+                      We offer our children many leadership and teamwork opportunities to build their confidence and prepare them for future challenges. A true all-round education can never be confined to the four walls of a classroom. Sunshine students have many opportunities to learn in different environments.
                     </Typography>
                     <Typography variant="h6" style={{ textAlign: 'left' }}>
                       The subjects taught during the starting years of their learning journey include English, Mathematics, and Environmental studies.

@@ -64,7 +64,12 @@ export const Navigation = (props) => {
 
             <li>
               <a href="#services" className="page-scroll" onClick={handleNavItemClick}>
-                Details
+                Curriculum
+              </a>
+            </li>
+            <li>
+              <a href="#team" className="page-scroll" onClick={handleNavItemClick}>
+              management
               </a>
             </li>
             <li>
@@ -72,16 +77,11 @@ export const Navigation = (props) => {
                 Gallery
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials"  className="page-scroll" onClick={handleNavItemClick}>
                 Testimonials
               </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll" onClick={handleNavItemClick}>
-                Team
-              </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll" onClick={handleNavItemClick}>
                 Contact

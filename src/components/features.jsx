@@ -34,7 +34,7 @@ export const Features = () => {
       content: "Our mission is to empower our students with knowledge, skills, and values that will not only help them succeed academically but also thrive as compassionate and responsible global citizens. We firmly believe in nurturing their innate potential, igniting a lifelong passion for learning, and helping them reach their highest aspirations.",
     },
     {
-      title: "CURRICULAM",
+      title: "CURRICULUM",
       image: "img/updated pics/montessori (1).jpg",
       content: "The two key versions of the Indian Curriculum are the Central Board of Secondary Education (CBSE) and the Council for the Indian School Certificate Examinations (CISCE) which are offered in many international schools. We at Sunshine have incorporated both of these under one roof, where the students and parents get the option to choose the required curriculum. ",
     },
