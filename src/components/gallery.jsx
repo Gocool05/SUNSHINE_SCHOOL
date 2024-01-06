@@ -89,12 +89,12 @@ export const Gallery = () => {
   ];
 
   return (
-    <div id="gallery">
-      <div className="section-title">
-          <h2 style={{textAlign: "center"}} >Gallery</h2>
-          <p style={{textAlign: "center"}}>Capturing the vibrant spirit of our school community through a visual journey in our gallery</p>
+    <div id="gallery" >
+      <div className="section-title" style={{marginTop: "70px"}}>
+          <h2 style={{textAlign: "center"}} >Albums</h2>
+          <p style={{textAlign: "center"}}>Moments of Sunshine</p>
         </div>
-    <div className="main-gallery-container">
+    <div className="main-gallery-container" style={{marginBottom: "50px"}} >
   {events.map((event, index) => (
     <div key={`flexbox-item-${index}`} className="flexbox-item">
       <div className="card" onClick={() => openModal(event.images, 0)}>

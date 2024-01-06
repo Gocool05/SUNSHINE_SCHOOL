@@ -46,11 +46,11 @@ export const Features = () => {
   ];
 
   return (
+    <div id="features">
     <div className="container">
     <Container id="Ethos" className={classes.layout} >
       <div className="section-title">
-          <h2 style={{textAlign: "center"}} >Ethos</h2>
-          <p>The ethos reflects its fundamental values, mission, and the overall atmosphere that influences the educational environment</p>
+          <h2 style={{textAlign: "center"}} >Vision and Mission</h2>
         </div>
     <Grid container spacing={3}>
       {cardsData.map((card, index) => (
@@ -74,6 +74,7 @@ export const Features = () => {
       ))}
     </Grid>
   </Container>
+  </div>
   </div>
   );
 };

@@ -12,6 +12,9 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import NewsTicker from './components/newsTicker';
+import Home from "./Pages/Home";
+import Curriculum from "./Pages/Curriculum";
+import AllRoute from "./AllRoutes/AllRoute";
 
 const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,7 +38,7 @@ const App = () => {
   return (
     <div onContextMenu={handleContextMenu} className="disable-right-click">
       <div>
-        <NewsTicker newsItems={latestNews} />
+        {/* <NewsTicker newsItems={latestNews} />
         <Navigation />
         <Header data={landingPageData.Header} />
         <About data={landingPageData.About} />
@@ -43,8 +46,9 @@ const App = () => {
         <Services data={landingPageData.Services} />
         <Team data={landingPageData.Team} />
         <Gallery data={landingPageData.Gallery} />
-        {/* <Testimonials data={landingPageData.Testimonials} /> */}
-        <Contact data={landingPageData.Contact} />
+        <Contact data={landingPageData.Contact} /> */}
+        {/* <Home/> */}
+        <AllRoute/>
       </div>
     </div>
   );

@@ -1,29 +1,29 @@
 import { color } from "@mui/system";
 import React from "react";
 import { useEffect,useState } from 'react';
-
+import { Link,useNavigate } from "react-router-dom";
 export const Navigation = (props) => {
+const navigate =useNavigate();
+  // const [isNavOpen, setNavOpen] = useState(false);
 
-  const [isNavOpen, setNavOpen] = useState(false);
+  // const handleNavItemClick = () => {
+  //   setNavOpen(false); // Close the navbar collapse
+  // };
 
-  const handleNavItemClick = () => {
-    setNavOpen(false); // Close the navbar collapse
-  };
+  // useEffect(() => {
+  //   // Add event listeners to close the navbar collapse when a link is clicked
+  //   const navbarLinks = document.querySelectorAll('.navbar-nav li a.page-scroll');
+  //   navbarLinks.forEach((link) => {
+  //     link.addEventListener('click', handleNavItemClick);
+  //   });
 
-  useEffect(() => {
-    // Add event listeners to close the navbar collapse when a link is clicked
-    const navbarLinks = document.querySelectorAll('.navbar-nav li a.page-scroll');
-    navbarLinks.forEach((link) => {
-      link.addEventListener('click', handleNavItemClick);
-    });
-
-    // Remove event listeners when the component is unmounted
-    return () => {
-      navbarLinks.forEach((link) => {
-        link.removeEventListener('click', handleNavItemClick);
-      });
-    };
-  }, []);
+  //   // Remove event listeners when the component is unmounted
+  //   return () => {
+  //     navbarLinks.forEach((link) => {
+  //       link.removeEventListener('click', handleNavItemClick);
+  //     });
+  //   };
+  // }, []);
 
 
   return (
@@ -36,7 +36,7 @@ export const Navigation = (props) => {
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
-            onClick={() => setNavOpen(!isNavOpen)}
+            // onClick={() => setNavOpen(!isNavOpen)}
           >
             {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
@@ -49,33 +49,33 @@ export const Navigation = (props) => {
           </a>
         </div>
 
-        <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="bs-example-navbar-collapse-1">
+        <div className={`collapse navbar-collapse `} id="bs-example-navbar-collapse-1">
           <ul style={{backgroundColor:"white"}} className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll" onClick={handleNavItemClick}>
-                About
-              </a>
+              <Link to="/" className="page-scroll" >
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#Ethos" className="page-scroll" onClick={handleNavItemClick}>
+              <Link to="/ethos" className="page-scroll" >
                 Ethos
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#services" className="page-scroll" onClick={handleNavItemClick}>
+              <Link to="/curriculum" className="page-scroll" >
                 Curriculum
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#team" className="page-scroll" onClick={handleNavItemClick}>
+              <Link to="/management" className="page-scroll">
               management
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#gallery" className="page-scroll" onClick={handleNavItemClick}>
+              <Link to="/gallery" className="page-scroll" >
                 Gallery
-              </a>
+              </Link>
             </li>
             {/* <li>
               <a href="#testimonials"  className="page-scroll" onClick={handleNavItemClick}>
@@ -83,9 +83,9 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li>
-              <a href="#contact" className="page-scroll" onClick={handleNavItemClick}>
+              <Link to="/contactus" className="page-scroll" >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
