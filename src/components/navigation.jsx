@@ -44,36 +44,36 @@ const navigate =useNavigate();
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a href="#Header" className="page-scroll">
+          {/* <a href="#Header" > */}
           <img className="logo" src="https://res.cloudinary.com/dx78kzenz/image/upload/v1703055509/sunshine_montessori_school_vh708w.png" alt="logo"></img>
-          </a>
+          {/* </a> */}
         </div>
 
         <div className={`collapse navbar-collapse `} id="bs-example-navbar-collapse-1">
           <ul style={{backgroundColor:"white"}} className="nav navbar-nav navbar-right">
             <li>
-              <Link to="/" className="page-scroll" >
+              <Link to="/" >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/ethos" className="page-scroll" >
+              <Link to="/ethos" >
                 Ethos
               </Link>
             </li>
 
             <li>
-              <Link to="/curriculum" className="page-scroll" >
+              <Link to="/curriculum"  >
                 Curriculum
               </Link>
             </li>
             <li>
-              <Link to="/management" className="page-scroll">
+              <Link to="/management" >
               management
               </Link>
             </li>
             <li>
-              <Link to="/gallery" className="page-scroll" >
+              <Link to="/gallery"  >
                 Gallery
               </Link>
             </li>
@@ -83,7 +83,7 @@ const navigate =useNavigate();
               </a>
             </li> */}
             <li>
-              <Link to="/contactus" className="page-scroll" >
+              <Link to="/contactus"  >
                 Contact
               </Link>
             </li>

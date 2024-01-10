@@ -25,22 +25,22 @@ export const Features = () => {
   const cardsData = [
     {
       title: "VISION",
-      image: "img/updated pics/montessori.jpg",
+      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780842/ACTIVITY2_yym19y.jpg",
       content: "Our new school is driven by a strong vision of offering the prestigious CISCE curriculum, which enjoys global recognition, providing our students with a comprehensive and well-rounded education that prepares them to excel in today's interconnected world, as well as the CBSE curriculum, which helps to guide the students in their preparation, make sure that the students are fit and healthy physically, to inculcate cultural values among the students, set their own goals, enhance their potential and gain application-based knowledge and information",
     },
     {
       title: "MISSION",
-      image: "img/updated pics/montessori2.jpeg",
+      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780189/v3_qaae0o.jpg",
       content: "Our mission is to empower our students with knowledge, skills, and values that will not only help them succeed academically but also thrive as compassionate and responsible global citizens. We firmly believe in nurturing their innate potential, igniting a lifelong passion for learning, and helping them reach their highest aspirations.",
     },
     {
       title: "CURRICULUM",
-      image: "img/updated pics/montessori (1).jpg",
+      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780845/montessori_1_jjtcf9.jpg",
       content: "The two key versions of the Indian Curriculum are the Central Board of Secondary Education (CBSE) and the Council for the Indian School Certificate Examinations (CISCE) which are offered in many international schools. We at Sunshine have incorporated both of these under one roof, where the students and parents get the option to choose the required curriculum. ",
     },
     {
       title: "WHAT MAKES US SO UNIQUE",
-      image: "img/updated pics/v4.webp",
+      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780954/v4_efnbfr.webp",
       content: "At Sunshine, we believe in open conversations between students and teachers. We encourage everyone to freely share their thoughts and ideas while treating each other with respect. Our daily mission is to spark a love for learning, unlock creativity, and help students think globally From the tiniest learners to our 15-year-old students, we inspire excellence in all aspects of life. Join us at Sunshine School, where every day is a step towards a brighter future. Learning at Sunshine is sequenced and from our early learners through to Year 15, Sunshine students are encouraged to pursue excellence in everything they do.",
     },
   ];

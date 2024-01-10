@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { Image } from "@mui/icons-material";
+
 import { CardMedia } from "@mui/material";
 
 export const Services = (props) => {
@@ -83,7 +83,7 @@ export const Services = (props) => {
               <CardContent>
               <CardMedia
         sx={{ height:'200px',borderRadius:'10px', marginBottom:'10px', border: '1px inset yellow', boxShadow:'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' }}
-        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704459820/ecr2_hvtjnw.jpg"
+        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704779459/ACTIVITY8_d77myf.jpg"
         title="Primary School"
       />
 
@@ -129,7 +129,7 @@ export const Services = (props) => {
               <CardContent>
               <CardMedia
         sx={{ height:'200px',borderRadius:'10px', marginBottom:'10px', border: '1px inset yellow', boxShadow:'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' }}
-        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704459820/ecr3_tgqjxd.jpg"
+        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704780021/ACTIVITY11_q5x3s0.jpg"
         title="High School"
       />
                 <Typography variant="h4" style={{ fontWeight: 'bold' }} gutterBottom>
@@ -178,8 +178,8 @@ export const Services = (props) => {
               <CardContent>
               <CardMedia
         sx={{ height:'200px',borderRadius:'10px', marginBottom:'10px', border: '1px inset yellow', boxShadow:'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' }}
-        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704460158/ecr7_esnkaf.jpg"
-        title="green iguana"
+        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704780186/download_5_bbtoqj.jpg"
+        title="grade 1 to 5"
       />
                 <Typography variant="h4" style={{ fontWeight: 'bold' }} gutterBottom>
                 GRADE 1 to 5
@@ -230,8 +230,8 @@ export const Services = (props) => {
               <CardContent>
               <CardMedia
         sx={{ height:'200px',borderRadius:'10px', marginBottom:'10px', border: '1px inset yellow', boxShadow:'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' }}
-        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704460158/ecr6_zotpw3.jpg"
-        title="green iguana"
+        image="https://res.cloudinary.com/dx78kzenz/image/upload/v1704780187/download_yyrsha.webp"
+        title="Grade 6 and 7"
       />
                 <Typography variant="h4" style={{ fontWeight: 'bold' }} gutterBottom>
                 GRADE 6 and 7

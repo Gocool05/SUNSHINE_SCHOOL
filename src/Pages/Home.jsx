@@ -9,6 +9,7 @@ import { Navigation } from '../components/navigation'
 import { Features } from '../components/features'
 import { Team } from '../components/Team'
 import { Services } from '../components/services'
+import { Testimonials } from '../components/testimonials'
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
     <About data={landingPageData.About}/>
     {/* <Features data={landingPageData.Features}/> */}
     {/* <Services data={landingPageData.Services}/> */}
+    {/* <Testimonials data={landingPageData.Testimonials}/> */}
     <Contact data={landingPageData.Contact}/>
 </>
     )
