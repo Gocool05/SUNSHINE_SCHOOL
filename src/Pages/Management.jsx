@@ -20,7 +20,7 @@ const Management = () => {
       speedAsDuration: true,
     });
     
-    const latestNews = ['Just checking out our Management!'];
+    const latestNews = ['The future is mysterious and thus one is not aware of what the evolution of time has potentially kept in every child!'];
 
     const titleStyle = {
       fontSize: '6vw',

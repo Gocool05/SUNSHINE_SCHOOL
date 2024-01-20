@@ -15,7 +15,7 @@ const Curriculum = () => {
     speedAsDuration: true,
   });
   
-  const latestNews = ['Just checking out our curriculum!'];
+  const latestNews = ['Montessori Mode of Curriculum, Education and Assessment methods'];
     
   const [landingPageData, setLandingPageData] = useState({});
   

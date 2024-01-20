@@ -188,7 +188,7 @@ margin-bottom: 30px;
 
 .news{
   background: linear-gradient(to right, #1e3c72, #2a5298);
-  border-style:outset;
+  border-style:inset;
   text-transform: uppercase;
   z-index: 1;
   color: white;

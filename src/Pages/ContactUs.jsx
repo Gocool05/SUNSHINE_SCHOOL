@@ -17,7 +17,7 @@ const ContactUs = () => {
     speedAsDuration: true,
   });
   
-  const latestNews = ['Just checking out our contact us!'];
+  const latestNews = ['Contact Number: +91 63694 92855 / Email Id: sunshinemontessoriicseschool@gmail.com'];
 
   const titleStyle = {
     fontSize: '6vw',

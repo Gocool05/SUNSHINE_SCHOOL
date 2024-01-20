@@ -12,7 +12,7 @@ const GalleryPage = () => {
     speedAsDuration: true,
   });
   
-  const latestNews = ['Just checking out our Gallery Page!'];
+  const latestNews = ['Capturing the vibrant spirit of our school community through a visual journey in our gallery!'];
 
   const titleStyle = {
     fontSize: '6vw',

@@ -17,7 +17,7 @@ const Ethos = () => {
     fontSize: '6vw',
   };
 
-  const latestNews = ['Just checking out our Ethos !'];
+  const latestNews = ['At Sunshine, we believe in open conversations between students and teachers.'];
   return (
   <>
   <NewsTicker newsItems={latestNews}/>

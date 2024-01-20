@@ -34,51 +34,78 @@ export const Gallery = () => {
 
   const events = [
     {
-      title: 'Annual Day',
+      title: 'Field Trip',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m2_ttg6bj.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m2_ttg6bj.jpg' },
-        { original: 'https://picsum.photos/800/400?random=2', thumbnail: 'https://picsum.photos/800/400?random=2' },
-        { original: 'https://picsum.photos/800/400?random=3', thumbnail: 'https://picsum.photos/800/400?random=3' },
+        { original: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a2.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a3.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Field Trip Marine Kingdom/a3.jpg` },
       ],
     },
     {
-      title: 'Play Time',
+      title: 'Mont Environment',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m6_pex6rr.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m6_pex6rr.jpg' },
-        { original: 'https://picsum.photos/800/400?random=5', thumbnail: 'https://picsum.photos/800/400?random=5' },
-        { original: 'https://picsum.photos/800/400?random=6', thumbnail: 'https://picsum.photos/800/400?random=6' },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a2.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a3.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a3.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a4.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a4.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a5.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a5.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a6.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a6.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a7.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a7.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a8.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Mont Environment @ECR/a8.jpg` },
+  
       ],
     },
     {
-      title: 'Fun Activities',
+      title: 'Onam',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075171/m1_qc29mi.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075171/m1_qc29mi.jpg' },
-        { original: 'https://picsum.photos/800/400?random=8', thumbnail: 'https://picsum.photos/800/400?random=8' },
-        { original: 'https://picsum.photos/800/400?random=9', thumbnail: 'https://picsum.photos/800/400?random=9' },
+        { original: `${process.env.PUBLIC_URL}/img/Onam/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Onam/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Onam/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Onam/a2.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Onam/a3.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Onam/a3.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Onam/a4.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Onam/a4.jpg` },
+        
       ],
     },
     {
-      title: 'Republic Day',
+      title: 'Krishna Jayanthi',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m3_drnsbg.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m3_drnsbg.jpg' },
-        { original: 'https://picsum.photos/800/400?random=11', thumbnail: 'https://picsum.photos/800/400?random=11' },
-        { original: 'https://picsum.photos/800/400?random=12', thumbnail: 'https://picsum.photos/800/400?random=12' },
+        { original: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a2.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a3.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Krishna Jayanthi @ECR/a3.jpg` },
       ],
     },
     {
-      title: 'Red Day',
+      title: 'Childrens Day',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m4_ugmemt.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m4_ugmemt.jpg' },
-        { original: 'https://picsum.photos/800/400?random=14', thumbnail: 'https://picsum.photos/800/400?random=14' },
-        { original: 'https://picsum.photos/800/400?random=15', thumbnail: 'https://picsum.photos/800/400?random=15' },
+        { original: `${process.env.PUBLIC_URL}/img/Children_s Day/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Children_s Day/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Children_s Day/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Children_s Day/a2.jpg` },
+        
       ],
     },
     {
-      title: 'Pongal Celebration',
+      title: 'Deepavali',
       images: [
-        { original: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m5_bdkoiz.jpg', thumbnail: 'https://res.cloudinary.com/dx78kzenz/image/upload/v1703075169/m5_bdkoiz.jpg' },
-        { original: 'https://picsum.photos/800/400?random=18', thumbnail: 'https://picsum.photos/800/400?random=18' },
-        { original: 'https://picsum.photos/800/400?random=19', thumbnail: 'https://picsum.photos/800/400?random=19' },
+        { original: `${process.env.PUBLIC_URL}/img/Deepavali/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Deepavali/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Deepavali/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Deepavali/a2.jpg` },
+      ],
+    },
+    {
+      title: 'Independence Day',
+      images: [
+        { original: `${process.env.PUBLIC_URL}/img/Independence Day/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Independence Day/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Independence Day/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Independence Day/a2.jpg` },
+      ],
+    },
+    {
+      title: 'Navaratri',
+      images: [
+        { original: `${process.env.PUBLIC_URL}/img/Navaratri/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Navaratri/a1.jpg` },
+        { original: `${process.env.PUBLIC_URL}/img/Navaratri/a2.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Navaratri/a2.jpg` },
+      ],
+    },
+    {
+      title: 'Vinayakar Chathurthi',
+      images: [
+        { original: `${process.env.PUBLIC_URL}/img/Vinayakar Chathurthi/a1.jpg`, thumbnail: `${process.env.PUBLIC_URL}/img/Vinayakar Chathurthi/a1.jpg` },
       ],
     },
   

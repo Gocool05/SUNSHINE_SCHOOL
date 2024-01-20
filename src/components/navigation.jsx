@@ -1,9 +1,8 @@
 import { color } from "@mui/system";
 import React from "react";
 import { useEffect,useState } from 'react';
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 export const Navigation = (props) => {
-const navigate =useNavigate();
   // const [isNavOpen, setNavOpen] = useState(false);
 
   // const handleNavItemClick = () => {
@@ -24,7 +23,12 @@ const navigate =useNavigate();
   //     });
   //   };
   // }, []);
+  const location = useLocation();
 
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts or when the route changes
+    window.scrollTo(0, 0);
+  }, [location.pathname]); 
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
