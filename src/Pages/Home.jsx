@@ -6,10 +6,9 @@ import { Header } from '../components/header'
 import SmoothScroll from "smooth-scroll";
 import JsonData from '../data/data.json'
 import { Navigation } from '../components/navigation'
-import { Features } from '../components/features'
-import { Team } from '../components/Team'
-import { Services } from '../components/services'
-import { Testimonials } from '../components/testimonials'
+import AdmissionsModal from '../components/admissionModal'
+import { Link } from 'react-router-dom'
+
 
 
 const Home = () => {
@@ -26,7 +25,14 @@ const Home = () => {
         useEffect(() => {
           setLandingPageData(JsonData);
         }, []);
+        const [modalOpen, setModalOpen] = useState(true);
 
+        useEffect(() => {
+          const timer = setTimeout(() => {
+            setModalOpen(false);
+          }, 5000); 
+          return () => clearTimeout(timer);
+        }, []); 
 
   return (
     <>
@@ -34,10 +40,8 @@ const Home = () => {
     <Navigation />
     <Header data={landingPageData.Header}/>
     <About data={landingPageData.About}/>
-    {/* <Features data={landingPageData.Features}/> */}
-    {/* <Services data={landingPageData.Services}/> */}
-    {/* <Testimonials data={landingPageData.Testimonials}/> */}
     <Contact data={landingPageData.Contact}/>
+    <AdmissionsModal open={modalOpen} onClose={() => setModalOpen(false)} />
 </>
     )
 }

@@ -22,17 +22,6 @@ const ContactUs = () => {
   const titleStyle = {
     fontSize: '6vw',
   };
-  // function Map() {
-  //   const defaultCenter = { lat:12.935798897081344 , lng: 80.25119220098166 }; // Replace with your current location's coordinates
-  
-  //   return (
-  //     <GoogleMap defaultZoom={14} defaultCenter={defaultCenter}>
-  //       <Marker position={defaultCenter} />
-  //     </GoogleMap>
-  //   );
-  // }
-  
-  // const WrappedMap = withScriptjs(withGoogleMap(Map));
   
   return (
     

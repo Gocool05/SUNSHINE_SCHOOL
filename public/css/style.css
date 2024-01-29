@@ -22,12 +22,20 @@ body{
     width: auto;
     object-fit: cover;
   }
+  .img-responsives{
+    border-radius: 30px 30px; 
+    border: 10px dotted #f4ce14;
+    height:70vh;
+    object-fit: cover;
+  }
 
-  
-  /* Add these styles to your existing CSS file */
+  .admission-modal{
+     background-image:   linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    border: 10px groove #f4ce14;
+     box-shadow: 24;
+     border-radius: 30px 30px;
 
-
-
+  }
 h2,
 h3,
 h4 {
@@ -376,7 +384,8 @@ header .intro-text {
 
 /* Features Section */
 #features {
-  /* background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1703852437/y-bg_1_nhplad.jpg); */
+  /* background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1706533559/modal-bg_kbuqbd.png); */
+  /* background-color: white; */
   padding: 100px 0;
   margin: 0%;
 }
@@ -388,7 +397,7 @@ header .intro-text {
 }
 #gallery{
   margin-top: 0%;
-  /* background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1703852437/y-bg_1_nhplad.jpg); */
+  /* background-image: url(https://res.cloudinary.com/dx78kzenz/image/upload/v1706533559/modal-bg_kbuqbd.png); */
 }
 #features i.fa {
   font-size: 38px;
@@ -442,16 +451,50 @@ header .intro-text {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
+  font-weight: 400;
   padding: 0;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #f4ce14;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
 }
+
+#about .about-text1 li {
+  margin-bottom: 18px;
+  margin-left: 6px;
+  list-style: none;
+  font-weight: 500;
+  padding: 0;
+}
+#about .about-text1 li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #f4ce14;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+#services .section-title li {
+  margin-bottom: 18px;
+  margin-left: 6px;
+  list-style: none;
+  font-weight: 500;
+  padding: 0;
+}
+#services .section-title li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #f4ce14;
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
 #about img {
   width: 520px;
   margin-top: 10px;
@@ -620,7 +663,7 @@ header .intro-text {
 }
 #team .team-img {
   width: auto;
-  height: 300px;
+  height: 250px;
   border-radius: 0px 90px 90px; 
 border: 4px inset #F4CE14;
 }
@@ -802,8 +845,44 @@ label {
   text-decoration: none;
 }
 
+.card-infra{
+  height: 400px;
+}
+.admission-text{
+  width: 50%;
+}
+.admission-image{
+  width: 50%;
+}
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
   }
+  #team .team-img {
+    width: auto;
+    height: 250px;
+  }
+  .team-text{
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .card-infra{
+    height: auto;
+  }
+  .img-responsives{
+  height: 35vh;
+  }
+.img-responsive{
+    height: 35vh;
+}
+.admission-modal{
+  flex-direction: column;
+}
+.admission-image{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.admission-text{
+width: 100%;
+}
 }

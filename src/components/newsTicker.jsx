@@ -12,7 +12,6 @@ const NewsTicker = ({ newsItems }) => {
       </marquee>
     </div>
     </div>
-
   );
 };
 

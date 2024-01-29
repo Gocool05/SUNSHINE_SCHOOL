@@ -131,7 +131,6 @@ export const Gallery = () => {
     </div>
   ))}
 </div>
-
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}

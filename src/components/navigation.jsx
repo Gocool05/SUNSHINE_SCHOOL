@@ -3,30 +3,10 @@ import React from "react";
 import { useEffect,useState } from 'react';
 import { Link, useLocation } from "react-router-dom";
 export const Navigation = (props) => {
-  // const [isNavOpen, setNavOpen] = useState(false);
 
-  // const handleNavItemClick = () => {
-  //   setNavOpen(false); // Close the navbar collapse
-  // };
-
-  // useEffect(() => {
-  //   // Add event listeners to close the navbar collapse when a link is clicked
-  //   const navbarLinks = document.querySelectorAll('.navbar-nav li a.page-scroll');
-  //   navbarLinks.forEach((link) => {
-  //     link.addEventListener('click', handleNavItemClick);
-  //   });
-
-  //   // Remove event listeners when the component is unmounted
-  //   return () => {
-  //     navbarLinks.forEach((link) => {
-  //       link.removeEventListener('click', handleNavItemClick);
-  //     });
-  //   };
-  // }, []);
   const location = useLocation();
 
   useEffect(() => {
-    // Scroll to the top of the page when the component mounts or when the route changes
     window.scrollTo(0, 0);
   }, [location.pathname]); 
 
@@ -72,8 +52,13 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
+              <Link to="/infrastructure"  >
+                Infrastructure
+              </Link>
+            </li>
+            <li>
               <Link to="/management" >
-              management
+              Management
               </Link>
             </li>
             <li>
@@ -81,11 +66,6 @@ export const Navigation = (props) => {
                 Gallery
               </Link>
             </li>
-            {/* <li>
-              <a href="#testimonials"  className="page-scroll" onClick={handleNavItemClick}>
-                Testimonials
-              </a>
-            </li> */}
             <li>
               <Link to="/contactus"  >
                 Contact

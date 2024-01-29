@@ -26,17 +26,17 @@ export const Features = () => {
     {
       title: "VISION",
       image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780842/ACTIVITY2_yym19y.jpg",
-      content: "Our new school is driven by a strong vision of offering the prestigious CISCE curriculum, which enjoys global recognition, providing our students with a comprehensive and well-rounded education that prepares them to excel in today's interconnected world, as well as the CBSE curriculum, which helps to guide the students in their preparation, make sure that the students are fit and healthy physically, to inculcate cultural values among the students, set their own goals, enhance their potential and gain application-based knowledge and information",
+      content: "Our new school is dedicated to providing a comprehensive education that prepares students for success in a globalized world. We emphasize physical health, cultivate cultural values, encourage students to set personal goals, and promote hands-on learning and understanding.",
     },
     {
       title: "MISSION",
-      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780189/v3_qaae0o.jpg",
+      image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780185/download_8_pinptr.jpg",
       content: "Our mission is to empower our students with knowledge, skills, and values that will not only help them succeed academically but also thrive as compassionate and responsible global citizens. We firmly believe in nurturing their innate potential, igniting a lifelong passion for learning, and helping them reach their highest aspirations.",
     },
     {
-      title: "CURRICULUM",
+      title: "EDUCATIONAL PHILOSOPHY",
       image: "https://res.cloudinary.com/dx78kzenz/image/upload/v1704780845/montessori_1_jjtcf9.jpg",
-      content: "The two key versions of the Indian Curriculum are the Central Board of Secondary Education (CBSE) and the Council for the Indian School Certificate Examinations (CISCE) which are offered in many international schools. We at Sunshine have incorporated both of these under one roof, where the students and parents get the option to choose the required curriculum. ",
+      content: "At Sunshine Montessori School, our educational philosophy is deeply rooted in the principles of the Montessori method, fostering an environment that nurtures the academic and personal growth of each child. We believe in a holistic approach to education that recognizes the uniqueness of every learner and provides a foundation for a lifetime of success. Our goal is not only to impart knowledge but also to instill a lifelong love for learning. Through engaging activities, interactive lessons, and a positive classroom atmosphere, we inspire curiosity and a passion for discovering the world around us. ",
     },
     {
       title: "WHAT MAKES US SO UNIQUE",

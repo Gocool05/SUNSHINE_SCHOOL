@@ -10,15 +10,15 @@ export const Team = (props) => {
       <div style={{ container: 'container' }}>
         <div style={{ columnWidth: '8', columnOffset: '2', textAlign: 'center' }}>
           <h2>Beloved higher officials</h2>
-          <p>
-            The Director of Sunshine and the Principal
+          <p style={{fontWeight:"bold" }} >
+            The DIRECTOR and CORRESPONDENT of Sunshine
           </p>
         </div>
         <div id="row" style={{ display: 'flex', flexWrap: 'wrap' }}>
           {props.data
             ? props.data.map((d, i) => (
               <div key={`${d.name}-${i}`} style={{ width: '100%', marginBottom: '20px' }}>
-                <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                   <div style={{ flex: '1', padding: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <img className="team-img" src={d.img} alt="..."  />
                     <div style={{ textAlign: 'center' }}>
@@ -28,7 +28,7 @@ export const Team = (props) => {
                   </div>
                   {/* Left side (Text) */}
                   <div style={{ flex: '2', fontWeight: 'bold',padding: '10px' }}>
-                    <div style={{ textAlign: 'left',padding:"0%", }}>
+                    <div style={{ textAlign: 'left',padding:"0%",marginTop:'20px' }}>
                       <p className="team-text">{d.text}</p>
                     </div>
                   </div>
